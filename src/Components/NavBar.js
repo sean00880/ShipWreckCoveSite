@@ -6,7 +6,7 @@ const NavBar = () => {
   return (
     <nav className="navigation">
     <div className="logo">
-        <h2>ShipWreck Cove</h2>
+      <img src="https://files.catbox.moe/6agriw.png" height="100px" alt="ShipWreck Cove" />
     </div>
     <NavLinks/>
     <div className="nav-btns-con">
