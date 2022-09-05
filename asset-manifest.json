@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ShipWreckCoveSite/static/css/main.7581cba3.css",
-    "main.js": "/ShipWreckCoveSite/static/js/main.2292e321.js",
+    "main.js": "/ShipWreckCoveSite/static/js/main.a2c85213.js",
     "static/media/fitness.png": "/ShipWreckCoveSite/static/media/fitness.e5456b5fc9acc7410a6a.png",
     "static/media/background2.jpg": "/ShipWreckCoveSite/static/media/background2.c1f74b37161ea949afb3.jpg",
     "static/media/agency2.jpg": "/ShipWreckCoveSite/static/media/agency2.e18bcd096a0821a1cac2.jpg",
@@ -29,10 +29,10 @@
     "static/media/3dAnimation.png": "/ShipWreckCoveSite/static/media/3dAnimation.84cf516e22c017ef243c.png",
     "index.html": "/ShipWreckCoveSite/index.html",
     "main.7581cba3.css.map": "/ShipWreckCoveSite/static/css/main.7581cba3.css.map",
-    "main.2292e321.js.map": "/ShipWreckCoveSite/static/js/main.2292e321.js.map"
+    "main.a2c85213.js.map": "/ShipWreckCoveSite/static/js/main.a2c85213.js.map"
   },
   "entrypoints": [
     "static/css/main.7581cba3.css",
-    "static/js/main.2292e321.js"
+    "static/js/main.a2c85213.js"
   ]
 }
