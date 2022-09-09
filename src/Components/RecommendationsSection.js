@@ -27,6 +27,7 @@ function RecommendationsSection() {
                         icon={'fas fa-chevron-right'}
                         arrow={'arrow'}
                         blob={'blob'}
+                        className='button'
                     />
                 </div>
             </div>
@@ -37,12 +38,16 @@ function RecommendationsSection() {
 
 const ReccomendationsSectionStyled = styled.section`
     display: grid;
-
+    
     grid-gap: 2rem;
     background-color: ${props => props.theme.colorBg3};
     margin-bottom: 6rem;
     box-shadow: 0 5px 18px #212529b7;
+    a{
+        color: black;
+    }
     .left-rec{
+        
         overflow: hidden;
         border-top-left-radius: 5px;
         img{

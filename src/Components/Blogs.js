@@ -16,7 +16,7 @@ function Blogs() {
   return (
     <section>
     <div className="title-con" >
-                <Title
+                <Title className='title'
                     name={'Gems'}
                     subtext="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut ratione atque blanditiis at, 
                         nihil nemo necessitatibus dignissimos nisi repellat quasi! Unde molestias tenetur at?"

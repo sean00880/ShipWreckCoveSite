@@ -10,7 +10,7 @@ const MobileNavBar = () => {
   const [open, setOpen] = useState(false);
 
   const hamburgerIcon = <CgMenuRound className='hamburger' onClick={()=> setOpen(!open)}/>
-  const closeIcon = <CgCloseO className='hamburger' onClick={()=> setOpen(!open)}/>
+  const closeIcon = <img className='hamburger' src="https://img.icons8.com/ios-filled/100/000000/self-destruct-button.png" onClick={()=> setOpen(!open)}/>
 
   return (
     <nav className="mobileNavigation">

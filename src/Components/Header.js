@@ -26,7 +26,7 @@ function Header() {
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae corrupti quae vero, expedita maiores voluptatibus quod iure laudantium itaque odit dicta? Eligendi consectetur repellendus rem ipsam mollitia impedit minus veritatis pariatur animi dicta totam perferendis nam delectus, quibusdam molestias aspernatur repudiandae architecto magni facere maxime temporibus nulla ex assumenda est. Similique vitae magnam sapiente illum at beatae dolore temporibus voluptatum quae qui omnis ipsam, repudiandae neque esse sit et aliquid odio non officiis vel, quam ullam! Minima eligendi nesciunt esse saepe repudiandae reprehenderit temporibus laudantium itaque similique nulla? Magnam autem modi quo quae nisi quos, voluptatem quisquam qui officia accusamus.
                 </p>
-                    <Button 
+                    <Button className='button'
                         name={'Get Started'}
                         icon={'fas fa-chevron-right'}
                         arrow={'arrow'}
@@ -46,6 +46,10 @@ function Header() {
 }
 
 const HeaderStyled = styled.header`
+
+    .left-content a{
+        color: black;
+    }
     min-height: 100vh;
     .navigation{
         top: 0;
@@ -365,6 +369,7 @@ const HeaderStyled = styled.header`
             opacity: 0;
             animation-fill-mode: forwards;
             display: flex;
+            justify-content: space-evenly;
             @keyframes contentHide2 {
                 0%{
                     opacity: 0;

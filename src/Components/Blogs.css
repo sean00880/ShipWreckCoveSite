@@ -5,6 +5,17 @@
     align-items: center;
 }
 
+.title{
+    background: linear-gradient(179deg,#8e731c -17.99%,#c5ac3d 111.32%,#6f5b14 111.32%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.fas{
+    color:#e4e425;
+}
+
 .card {
     background-color: white;
     border-radius: 13px 50px 17px 40px;
