@@ -58,8 +58,13 @@ const StyledH3 = styled.h3`
 
 const Links = styled.div`
     a{
-        color:white
+        color:white;
+        
     }
+    border-radius: 10%;
+    padding: 3px 10px;
+    background: #2c2c2cb8;
+    border: 1px solid white;
 `;
 
 const calc = (x, y) => [-(y - window.innerHeight / 2) / 200, (x - window.innerWidth / 2) / 200, 0.8]
