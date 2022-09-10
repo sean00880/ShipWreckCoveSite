@@ -56,6 +56,12 @@ const StyledH3 = styled.h3`
     font-weight: 300;
 `;
 
+const Links = styled.div`
+    a{
+        color:white
+    }
+`;
+
 const calc = (x, y) => [-(y - window.innerHeight / 2) / 200, (x - window.innerWidth / 2) / 200, 0.8]
 const trans = (x, y, s) => `perspective(600px) rotateX(${x}deg) rotateY(${y}deg) scale(${s})`
 
@@ -78,19 +84,22 @@ const GlassCard = () => {
             }}
         >
             <StyledImg src={profile} /><br/>
-            <StyledH1>Nexus Crypto Services ✖</StyledH1><br/>
-            <StyledH3 className="subtitle">All in one platform for traders old and new</StyledH3><br/>
-            <StyledH3>Nexus provides new and experienced crypto users with an all-in-one platform for their entire crypto journey. From learning how to get set up in the world of crypto & making your first trade to facilitating cross-chain bridging of funds & NFT tracking.<br/>
-✅dApp LIVE<br/>
-✅Doxxed Team & LLC in Wyoming<br/>
-✅Established project Launched Okt. '21<br/>
-The $NEXUS token is the financial backbone of the ecosystem and will be used to facilitate a variety of actions within the platform.<br/>
-🚀10M Supply<br/>
-🚀Staking LIVE<br/>
-🚀5% Tax<br/>
-🚀Cross-Chain Launch Imminent<br/>
-Nexus Folio is the market entry product and enjoys continuous updates based on community feedback.<br/>
-🤑FREE Unstoppable Domains NFT for new users 📈Charting tools for BSC & ETH 💰Portfolio tracking for BSC, ETH & CRO Chains 🚨Spam Token Detection 🚀AVAX & NEAR Support coming soon<br/>
+            <StyledH1>Decoded Web - Web Development Services ✖</StyledH1><br/>
+            <StyledH3 className="subtitle">Website Development Services</StyledH3><br/>
+            <StyledH3>Decoded Web provides website and app development services for all brands, businesses and niches. Let a professional build a website for you so you can focus on your real responsibilities. Each of our services include:<br/><br></br>
+✅ Website Creation & Setup<br/>
+✅ Deployment (Domain + Hosting)<br/>
+✅ Inherent SEO Optimization<br/>
+✅ Unique UI/UX built following best web development practices<br/><br></br>
+Decoded Web utilizes cutting edge technology offered by Next.JS and React to build advanced applications ideal for lead/customer acquisition and retention purposes. Optional add-ons:<br/><br/>
+🚀 Website Content Creation<br/>
+🚀 Three Free Revisions<br/>
+🚀 Secured payment via Stride<br/>
+🚀 Direct & Interpersonal Communication with Developer<br/><br/>
+Decoded Web assists in transforming your online presence.<br/>
+<Links>
+Links: <a href='www.decodedweb.us'>www.decodedweb.us</a><br/>
+</Links>
                         </StyledH3>
         </Container>
         <Container

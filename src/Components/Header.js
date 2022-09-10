@@ -504,6 +504,7 @@ const HeaderStyled = styled.header`
         }
         .header-content .right-content .h-img-3{
             width: 100%;
+            height: auto;
         }
     }
     @media only screen and (max-width:420px){
